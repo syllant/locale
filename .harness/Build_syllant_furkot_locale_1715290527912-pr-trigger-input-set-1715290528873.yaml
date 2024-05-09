@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_syllant_furkot_locale_1715290527912-pr-trigger-input-set
+  identifier: Build_syllant_furkot_locale_1715290527912prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_syllant_furkot_locale_1715290527912
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
